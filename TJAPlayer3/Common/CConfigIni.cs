@@ -1430,7 +1430,7 @@ namespace TJAPlayer3
 			this.TokkunMashInterval = 750;
 			this.bEndingAnime = false;
             this.nPlayerCount = 1; //2017.08.18 kairera0467 マルチプレイ対応
-            ShinuchiMode = false;
+            ShinuchiMode = true;
             FastRender = true;
             MusicPreTimeMs = 1000; // 一秒
             SendDiscordPlayingInformation = true;
