@@ -495,10 +495,10 @@ namespace TJAPlayer3
                 if( ( TJAPlayer3.ConfigIni.eClipDispType == EClipDispType.ウィンドウのみ || TJAPlayer3.ConfigIni.eClipDispType == EClipDispType.両方 ) && TJAPlayer3.ConfigIni.nPlayerCount == 1 )
                     this.actAVI.t窓表示();
 
-				if( !TJAPlayer3.ConfigIni.bNoInfo && !TJAPlayer3.ConfigIni.bTokkunMode)
-                    this.t進行描画_ゲージ();
-
                 this.actLaneTaiko.ゴーゴー炎();
+
+                if ( !TJAPlayer3.ConfigIni.bNoInfo && !TJAPlayer3.ConfigIni.bTokkunMode)
+                    this.t進行描画_ゲージ();
 
 
                 for ( int i = 0; i < TJAPlayer3.ConfigIni.nPlayerCount; i++ )
